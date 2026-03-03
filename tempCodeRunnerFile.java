@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class SimpleCalculator {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        double num1 = input.nextDouble();
+
+        System.out.print("Enter second number: ");
+        double num2 = input.nextDouble();
+
+        double sum = num1 + num2;
+        double difference = num1 - num2;
+        double product = num1 * num2;
+        double division = num1 / num2;
+
+        System.out.println("Addition: " + sum);
+        System.out.println("Subtraction: " + difference);
+        System.out.println("Multiplication: " + product);
+        System.out.println("Division: " + division);
+    }
+}
